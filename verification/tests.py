@@ -7,30 +7,231 @@ Each test is dict with
     "explanation" -- not necessary key, it's using for additional info in animation.
 """
 
-
 TESTS = {
     "Basics": [
         {
-            "input": [3, 2],
-            "answer": 5,
-            "explanation": "3+2=?"
+            "input": [
+                [
+                    "X...",
+                    "..X.",
+                    "X..X",
+                    "...."
+                ],
+                [
+                    "itdf",
+                    "gdce",
+                    "aton",
+                    "qrdi"
+                ]
+            ],
+            "answer": "icantforgetiddqd"
         },
         {
-            "input": [5, 7],
-            "answer": 12,
-            "explanation": "5+7=?"
+            "input": [
+                [
+                    ".X..",
+                    ".X..",
+                    "..X.",
+                    "..X."
+                ],
+                [
+                    "chec",
+                    "kiot",
+                    "hebe",
+                    "stof"
+                ]
+            ],
+            "answer": "hiboothehiboothe"
+        },
+        {
+            "input": [
+                [
+                    ".X..",
+                    "X...",
+                    "...X",
+                    "..X."
+                ],
+                [
+                    "call",
+                    "name",
+                    "goto",
+                    "hall"
+                ]
+            ],
+            "answer": "anollegaanollega"
+        },
+        {
+            "input": [
+                [
+                    "..X.",
+                    "X...",
+                    "...X",
+                    ".X.."
+                ],
+                [
+                    "call",
+                    "name",
+                    "goto",
+                    "hall"
+                ]
+            ],
+            "answer": "lnoalnoalnoalnoa"
+        },
+        {
+            "input": [
+                [
+                    "XXXX",
+                    "....",
+                    "....",
+                    "...."
+                ],
+                [
+                    "lool",
+                    "odco",
+                    "olfo",
+                    "lool"
+                ]
+            ],
+            "answer": "loolloolloollool"
+        },
+        {
+            "input": [
+                [
+                    "....",
+                    "X..X",
+                    ".X..",
+                    "...X"
+                ],
+                [
+                    "xhwc",
+                    "rsqx",
+                    "xqzz",
+                    "fyzr"
+                ]
+            ],
+            "answer": "rxqrwsfzxqxzhczy"
+        },
+        {
+            "input": [
+                [
+                    "X...",
+                    "..X.",
+                    "...X",
+                    ".X.."
+                ],
+                [
+                    "abcd",
+                    "efgh",
+                    "ijkl",
+                    "mnop"
+                ]
+            ],
+            "answer": "aglndekncejpcflm"
+        },
+        {
+            "input": [
+                [
+                    "....",
+                    ".XX.",
+                    ".XX.",
+                    "...."
+                ],
+                [
+                    "asdf",
+                    "efgh",
+                    "ijkl",
+                    "fdfd"
+                ]
+            ],
+            "answer": "fgjkfgjkfgjkfgjk"
+        },
+        {
+            "input": [
+                [
+                    "X..X",
+                    "....",
+                    "....",
+                    "X..X"
+                ],
+                [
+                    "abcd",
+                    "gggg",
+                    "eeee",
+                    "mnop"
+                ]
+            ],
+            "answer": "admpadmpadmpadmp"
         }
+
     ],
     "Extra": [
         {
-            "input": [6, 3],
-            "answer": 9,
-            "explanation": "6+3=?"
+            "input": [
+                [
+                    "....",
+                    ".XX.",
+                    ".XX.",
+                    "...."
+                ],
+                [
+                    "tyry",
+                    "efgh",
+                    "ijkl",
+                    "hghg"
+                ]
+            ],
+            "answer": "fgjkfgjkfgjkfgjk"
         },
         {
-            "input": [6, 7],
-            "answer": 13,
-            "explanation": "6+7=?"
+            "input": [
+                [
+                    "X..X",
+                    "....",
+                    "....",
+                    "X..X"
+                ],
+                [
+                    "abcd",
+                    "tgbh",
+                    "ewrw",
+                    "mnop"
+                ]
+            ],
+            "answer": "admpadmpadmpadmp"
+        },
+        {
+            "input": [
+                [
+                    "....",
+                    ".XX.",
+                    ".XX.",
+                    "...."
+                ],
+                [
+                    "asdf",
+                    "eqwg",
+                    "ierl",
+                    "fdfd"
+                ]
+            ],
+            "answer": "qwerqwerqwerqwer"
+        },
+        {
+            "input": [
+                [
+                    "X..X",
+                    "....",
+                    "....",
+                    "X..X"
+                ],
+                [
+                    "fbcg",
+                    "gggg",
+                    "eeee",
+                    "hnoj"
+                ]
+            ],
+            "answer": "fghjfghjfghjfghj"
         }
     ]
 }
