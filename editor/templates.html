@@ -1,7 +1,40 @@
 <script type="text/template" id="template_animation">
     <div class="animation-content center-exp">
         <div class="output"></div>
-        <div class="explanation center-exp"></div>
+        <div class="explanation">
+            <table class="table-explanation center-exp">
+                <tr>
+                    <td>Cipher<br>grille</td>
+                    <td>Ciphered<br>password</td>
+                </tr>
+
+                <tr>
+                    <td class="td-grille dense-grid"></td>
+                    <td class="td-cpassword dense-grid"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Iterations</td>
+                </tr>
+                <tr>
+                    <td class="td-iteration1 dense-grid bottom-none"></td>
+                    <td class="td-iteration2 dense-grid bottom-none"></td>
+                </tr>
+                <tr>
+                    <td class="td-iteration-result1 top-none"></td>
+                    <td class="td-iteration-result2 top-none"></td>
+                </tr>
+                <tr>
+                    <td class="td-iteration3 dense-grid bottom-none"></td>
+                    <td class="td-iteration4 dense-grid bottom-none"></td>
+                </tr>
+                <tr>
+                    <td class="td-iteration-result3 top-none">Third</td>
+                    <td class="td-iteration-result4 top-none">Fourth</td>
+                </tr>
+
+
+            </table>
+        </div>
         <div class="answer"></div>
         <div class="call"></div>
     </div>
@@ -9,22 +42,30 @@
 
 <script type="text/template" id="template_tryit">
     <div class="tryit-content center-exp">
-        <table class="tool">
-            <tr>
-                <td>
-                    <input type="text" value="test">
-                </td>
-                <td>
-                    <button class="bn-check btn">Action</button>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2" class="checkio-result">
-                    Result:<br>
-                    <span class="checkio-result-in">&nbsp;</span>
-                </td>
-            </tr>
+        <div class="tool">
+            <form class="input-test">
+                <table class="input-table center-exp">
+                    <tr>
+                        <td>Cipher<br>grille</td>
+                        <td>Ciphered<br>password</td>
 
-        </table>
+                    </tr>
+                    <tr>
+                        <td class="td-input-grille cipher-table"></td>
+                        <td class="td-input-cpassword cipher-table"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button type="submit" class="bn-check btn">Recall</button>
+                        </td>
+                    </tr>
+                </table>
+
+
+            </form>
+        </div>
+        <div style="clear: both"></div>
+        <div class="checkio-result"><span id="checkio-result-in"></span></div>
+        <div style="clear: both"></div>
     </div>
 </script>
