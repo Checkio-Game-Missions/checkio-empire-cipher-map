@@ -265,7 +265,7 @@ requirejs(['ext_editor_1', 'jquery_190', 'raphael_210'],
                     });
                     $td.append($input);
                 }
-            )
+            );
 
             $tryit.find("form").submit(function(e) {
                 tGrille = collectDataFromTable($tGrilleTable, 4);
