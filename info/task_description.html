@@ -61,30 +61,29 @@
 <p><strong>Input:</strong> A cipher grille and A ciphered password as a tuples of strings.
 </p>
 
-<p><strong>Output:</strong> The password. A string.</p>
+<p><strong>Output:</strong> The password as a string.</p>
 
 <div class="for_info_only">
     <p><strong>Example:</strong></p>
-<pre class="brush: python">checkio((
-'X...',
-'..X.',
-'X..X',
-'....'),
-('itdf',
-'gdce',
-'aton',
-'qrdi')) == 'icantforgetiddqd'
+<pre class="brush: python">checkio(
+    ('X...',
+     '..X.',
+     'X..X',
+     '....'),
+    ('itdf',
+     'gdce',
+     'aton',
+     'qrdi')) == 'icantforgetiddqd'
 
-checkio([[
-'....',
-'X..X',
-'.X..',
-'...X'],[
-'xhwc',
-'rsqx',
-'xqzz',
-'fyzr']
-]) == 'rxqrwsfzxqxzhczy'
+checkio(
+    ('....',
+     'X..X',
+     '.X..',
+     '...X'),
+    ('xhwc',
+     'rsqx',
+     'xqzz',
+     'fyzr')) == 'rxqrwsfzxqxzhczy'
 </pre>
 </div>
 
