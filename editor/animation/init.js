@@ -118,7 +118,7 @@ requirejs(['ext_editor_1', 'jquery_190', 'raphael_210'],
             var checkioInput = data.in;
 
             if (data.error) {
-                $content.find('.call').html('Fail: checkio(' + JSON.stringify(checkioInput) + ')');
+                $content.find('.call').html('Fail: recall_password(' + JSON.stringify(checkioInput) + ')');
                 $content.find('.output').html(data.error.replace(/\n/g, ","));
 
                 $content.find('.output').addClass('error');
@@ -145,14 +145,14 @@ requirejs(['ext_editor_1', 'jquery_190', 'raphael_210'],
             var $explanation = $content.find(".explanation");
 
             if (!result) {
-                $content.find('.call').html('Fail: checkio(' + convertedInput + ')');
+                $content.find('.call').html('Fail: recall_password(' + convertedInput + ')');
                 $content.find('.answer').html('Right result:&nbsp;' + JSON.stringify(rightResult));
                 $content.find('.answer').addClass('error');
                 $content.find('.output').addClass('error');
                 $content.find('.call').addClass('error');
             }
             else {
-                $content.find('.call').html('Pass: checkio(' + convertedInput + ')');
+                $content.find('.call').html('Pass: recall_password(' + convertedInput + ')');
                 $content.find('.answer').remove();
             }
 

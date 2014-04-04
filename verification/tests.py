@@ -29,74 +29,6 @@ TESTS = {
         {
             "input": [
                 [
-                    ".X..",
-                    ".X..",
-                    "..X.",
-                    "..X."
-                ],
-                [
-                    "chec",
-                    "kiot",
-                    "hebe",
-                    "stof"
-                ]
-            ],
-            "answer": "hiboothehiboothe"
-        },
-        {
-            "input": [
-                [
-                    ".X..",
-                    "X...",
-                    "...X",
-                    "..X."
-                ],
-                [
-                    "call",
-                    "name",
-                    "goto",
-                    "hall"
-                ]
-            ],
-            "answer": "anollegaanollega"
-        },
-        {
-            "input": [
-                [
-                    "..X.",
-                    "X...",
-                    "...X",
-                    ".X.."
-                ],
-                [
-                    "call",
-                    "name",
-                    "goto",
-                    "hall"
-                ]
-            ],
-            "answer": "lnoalnoalnoalnoa"
-        },
-        {
-            "input": [
-                [
-                    "XXXX",
-                    "....",
-                    "....",
-                    "...."
-                ],
-                [
-                    "lool",
-                    "odco",
-                    "olfo",
-                    "lool"
-                ]
-            ],
-            "answer": "loolloolloollool"
-        },
-        {
-            "input": [
-                [
                     "....",
                     "X..X",
                     ".X..",
@@ -111,76 +43,144 @@ TESTS = {
             ],
             "answer": "rxqrwsfzxqxzhczy"
         },
-        {
-            "input": [
-                [
-                    "X...",
-                    "..X.",
-                    "...X",
-                    ".X.."
-                ],
-                [
-                    "abcd",
-                    "efgh",
-                    "ijkl",
-                    "mnop"
-                ]
-            ],
-            "answer": "aglndekncejpcflm"
-        },
-        {
-            "input": [
-                [
-                    "....",
-                    ".XX.",
-                    ".XX.",
-                    "...."
-                ],
-                [
-                    "asdf",
-                    "efgh",
-                    "ijkl",
-                    "fdfd"
-                ]
-            ],
-            "answer": "fgjkfgjkfgjkfgjk"
-        },
-        {
-            "input": [
-                [
-                    "X..X",
-                    "....",
-                    "....",
-                    "X..X"
-                ],
-                [
-                    "abcd",
-                    "gggg",
-                    "eeee",
-                    "mnop"
-                ]
-            ],
-            "answer": "admpadmpadmpadmp"
-        }
 
     ],
     "Extra": [
         {
             "input": [
                 [
-                    "....",
-                    ".XX.",
-                    ".XX.",
-                    "...."
+                    "X...",
+                    ".X..",
+                    "..X.",
+                    "...X"
                 ],
                 [
-                    "tyry",
-                    "efgh",
-                    "ijkl",
-                    "hghg"
+                    "azbx",
+                    "azbx",
+                    "azbx",
+                    "azbx"
                 ]
             ],
-            "answer": "fgjkfgjkfgjkfgjk"
+            "answer": "azbxxbzaazbxxbza"
+        },
+        {
+            "input": [
+                [
+                    "XXXX",
+                    "....",
+                    "....",
+                    "....",
+                ],
+                [
+                    "call",
+                    "rsqi",
+                    "epzn",
+                    "yeee"
+                ]
+            ],
+            "answer": "calllineyeeecrey"
+        },
+        {
+            "input": [
+                [
+                    "X...",
+                    "X...",
+                    "X...",
+                    "X...",
+                ],
+                [
+                    "call",
+                    "rsqi",
+                    "epzn",
+                    "yeee"
+                ]
+            ],
+            "answer": "creycalllineyeee"
+        },
+        {
+            "input": [
+                [
+                    "X...",
+                    "..X.",
+                    ".X..",
+                    "...X",
+                ],
+                [
+                    "name",
+                    "goto",
+                    "line",
+                    "nope"
+                ]
+            ],
+            "answer": "ntieeonnntieeonn"
+        },
+        {
+            "input": [
+                [
+                    "XX..",
+                    "....",
+                    "....",
+                    "..XX",
+                ],
+                [
+                    "cree",
+                    "band",
+                    "test",
+                    "yepp"
+                ]
+            ],
+            "answer": "crppedtycrppedty"
+        },
+        {
+            "input": [
+                [
+                    "....",
+                    "X..X",
+                    "X..X",
+                    "....",
+                ],
+                [
+                    "cree",
+                    "band",
+                    "test",
+                    "yepp"
+                ]
+            ],
+            "answer": "bdttreepbdttreep"
+        },
+        {
+            "input": [
+                [
+                    "X...",
+                    ".X..",
+                    "..X.",
+                    "...X",
+                ],
+                [
+                    "aaaa",
+                    "aaaa",
+                    "aaaa",
+                    "aaaa"
+                ]
+            ],
+            "answer": "aaaaaaaaaaaaaaaa"
+        },
+        {
+            "input": [
+                [
+                    "...X",
+                    "..X.",
+                    "..X.",
+                    "...X",
+                ],
+                [
+                    "aazz",
+                    "aazz",
+                    "aazz",
+                    "aazz"
+                ]
+            ],
+            "answer": "zzzzazazaaaaazaz"
         },
         {
             "input": [
@@ -188,12 +188,12 @@ TESTS = {
                     "X..X",
                     "....",
                     "....",
-                    "X..X"
+                    "X..X",
                 ],
                 [
                     "abcd",
-                    "tgbh",
-                    "ewrw",
+                    "efgh",
+                    "ijkl",
                     "mnop"
                 ]
             ],
@@ -205,33 +205,18 @@ TESTS = {
                     "....",
                     ".XX.",
                     ".XX.",
-                    "...."
+                    "....",
                 ],
                 [
-                    "asdf",
-                    "eqwg",
-                    "ierl",
-                    "fdfd"
+                    "abcd",
+                    "efgh",
+                    "ijkl",
+                    "mnop"
                 ]
             ],
-            "answer": "qwerqwerqwerqwer"
+            "answer": "fgjkfgjkfgjkfgjk"
         },
-        {
-            "input": [
-                [
-                    "X..X",
-                    "....",
-                    "....",
-                    "X..X"
-                ],
-                [
-                    "fbcg",
-                    "gggg",
-                    "eeee",
-                    "hnoj"
-                ]
-            ],
-            "answer": "fghjfghjfghjfghj"
-        }
+
+
     ]
 }
