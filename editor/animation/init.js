@@ -268,11 +268,11 @@ requirejs(['ext_editor_1', 'jquery_190', 'raphael_210'],
             );
 
             $tryit.find(".bn-check").click(function(e) {
+                e.preventDefault();
                 tGrille = collectDataFromTable($tGrilleTable, 4);
                 tCpassword = collectDataFromTable($tCpasswordTable, 4);
-                this_e.sendToConsoleFunction("recall_password", tGrille, tCpassword);
-                e.stopPropagation();
-                return false;
+                this_e.sedToConsoleFunction("recall_password", tGrille, tCpassword);
+
             });
         });
 
