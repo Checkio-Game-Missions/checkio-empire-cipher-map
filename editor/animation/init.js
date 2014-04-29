@@ -267,7 +267,7 @@ requirejs(['ext_editor_1', 'jquery_190', 'raphael_210'],
                 }
             );
 
-            $tryit.find("form").submit(function(e) {
+            $tryit.find(".bn-check").click(function(e) {
                 tGrille = collectDataFromTable($tGrilleTable, 4);
                 tCpassword = collectDataFromTable($tCpasswordTable, 4);
                 this_e.sendToConsoleFunction("recall_password", tGrille, tCpassword);
