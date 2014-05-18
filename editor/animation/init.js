@@ -116,9 +116,13 @@ requirejs(['ext_editor_1', 'jquery_190', 'raphael_210'],
             }
 
             var checkioInput = data.in;
+            var func_name = "recall_password";
+            var checkioInputStr = func_name + '(' + JSON.stringify(checkioInput[0]).replace(/\[/g, "(").replace(/\]/g, ")") +
+                "," + JSON.stringify(checkioInput[1]).replace(/\[/g, "(").replace(/\]/g, ")") + ")";
+
 
             if (data.error) {
-                $content.find('.call').html('Fail: recall_password(' + JSON.stringify(checkioInput) + ')');
+                $content.find('.call').html('Fail: ' + checkioInputStr);
                 $content.find('.output').html(data.error.replace(/\n/g, ","));
 
                 $content.find('.output').addClass('error');
@@ -145,14 +149,14 @@ requirejs(['ext_editor_1', 'jquery_190', 'raphael_210'],
             var $explanation = $content.find(".explanation");
 
             if (!result) {
-                $content.find('.call').html('Fail: recall_password(' + convertedInput + ')');
+                $content.find('.call').html('Fail: ' + checkioInputStr);
                 $content.find('.answer').html('Right result:&nbsp;' + JSON.stringify(rightResult));
                 $content.find('.answer').addClass('error');
                 $content.find('.output').addClass('error');
                 $content.find('.call').addClass('error');
             }
             else {
-                $content.find('.call').html('Pass: recall_password(' + convertedInput + ')');
+                $content.find('.call').html('Pass: ' + checkioInputStr);
                 $content.find('.answer').remove();
             }
 
