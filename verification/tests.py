@@ -45,6 +45,59 @@ TESTS = {
         },
 
     ],
+    "Edge": [
+        {
+            "input": [
+                [
+                    "X...",
+                    ".X..",
+                    "..X.",
+                    "...X",
+                ],
+                [
+                    "aaaa",
+                    "aaaa",
+                    "aaaa",
+                    "aaaa"
+                ]
+            ],
+            "answer": "aaaaaaaaaaaaaaaa"
+        },
+        {
+            "input": [
+                [
+                    "X..X",
+                    "....",
+                    "....",
+                    "X..X",
+                ],
+                [
+                    "abcd",
+                    "efgh",
+                    "ijkl",
+                    "mnop"
+                ]
+            ],
+            "answer": "admpadmpadmpadmp"
+        },
+        {
+            "input": [
+                [
+                    "....",
+                    ".XX.",
+                    ".XX.",
+                    "....",
+                ],
+                [
+                    "abcd",
+                    "efgh",
+                    "ijkl",
+                    "mnop"
+                ]
+            ],
+            "answer": "fgjkfgjkfgjkfgjk"
+        },
+    ],
     "Extra": [
         {
             "input": [
@@ -148,23 +201,7 @@ TESTS = {
             ],
             "answer": "bdttreepbdttreep"
         },
-        {
-            "input": [
-                [
-                    "X...",
-                    ".X..",
-                    "..X.",
-                    "...X",
-                ],
-                [
-                    "aaaa",
-                    "aaaa",
-                    "aaaa",
-                    "aaaa"
-                ]
-            ],
-            "answer": "aaaaaaaaaaaaaaaa"
-        },
+
         {
             "input": [
                 [
@@ -182,40 +219,7 @@ TESTS = {
             ],
             "answer": "zzzzazazaaaaazaz"
         },
-        {
-            "input": [
-                [
-                    "X..X",
-                    "....",
-                    "....",
-                    "X..X",
-                ],
-                [
-                    "abcd",
-                    "efgh",
-                    "ijkl",
-                    "mnop"
-                ]
-            ],
-            "answer": "admpadmpadmpadmp"
-        },
-        {
-            "input": [
-                [
-                    "....",
-                    ".XX.",
-                    ".XX.",
-                    "....",
-                ],
-                [
-                    "abcd",
-                    "efgh",
-                    "ijkl",
-                    "mnop"
-                ]
-            ],
-            "answer": "fgjkfgjkfgjkfgjk"
-        },
+
 
 
     ]

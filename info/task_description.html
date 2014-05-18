@@ -58,7 +58,7 @@
     The cipher grille and the ciphered password are represented as an array (tuple) of strings.
 </p>
 
-<p><strong>Input:</strong> A cipher grille and A ciphered password as a tuples of strings.
+<p><strong>Input:</strong> A cipher grille and a ciphered password as a tuples of strings.
 </p>
 
 <p><strong>Output:</strong> The password as a string.</p>
@@ -98,8 +98,10 @@ recall_password(
 
 <p>
     <strong>Precondition:</strong>
-    |cipher_grille| == 4<br>
-    |ciphered_password| == 4<br>
-    &forall; c ∈ ciphered_passwords : c is a lowercase latin letter (ASCII).<br>
-    &forall; c ∈ cipher_grille : c == "X" or ch == ".".<br>
+    len(cipher_grille) == 4<br>
+    len(ciphered_password) == 4<br>
+    all(len(row) == 4 for row in ciphered_password)<br>
+    all(len(row) == 4 for row in cipher_grille)<br>
+    all(all(ch in string.ascii_lowercase for ch in row) for row in ciphered_password)<br>
+    all(all(ch == "X" or ch == "." for ch in row) for row in cipher_grille)<br>
 </p>
