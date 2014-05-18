@@ -117,8 +117,8 @@ requirejs(['ext_editor_1', 'jquery_190', 'raphael_210'],
 
             var checkioInput = data.in;
             var func_name = "recall_password";
-            var checkioInputStr = func_name + '(' + JSON.stringify(checkioInput[0]).replace(/\[/g, "(").replace(/\]/g, ")") +
-                "," + JSON.stringify(checkioInput[1]).replace(/\[/g, "(").replace(/\]/g, ")") + ")";
+            var checkioInputStr = func_name + '(<br>' + JSON.stringify(checkioInput[0]).replace(/\[/g, "(").replace(/\]/g, ")") +
+                ",<br>" + JSON.stringify(checkioInput[1]).replace(/\[/g, "(").replace(/\]/g, ")") + ")";
 
 
             if (data.error) {
