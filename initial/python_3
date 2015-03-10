@@ -23,3 +23,33 @@ if __name__ == '__main__':
          'rsqx',
          'xqzz',
          'fyzr')) == 'rxqrwsfzxqxzhczy', 'Second example'
+
+    # Rank 2
+    assert recall_password(
+        ('.X...X.',
+         'X.....X',
+         '.......',
+         '...X...',
+         '.......',
+         'X.....X',
+         '.X...X.'),
+        ('loremip',
+         'sumdolo',
+         'rsitame',
+         'tconsec',
+         'teturad',
+         'ipiscin',
+         'gelitqu')) == "oisonineqoisonineqoisonineqoisonineqoisonineqoisonineqoisonineq", "R2"
+
+    # Rank 3
+    assert recall_password(
+        ('.X...',
+         '.X...',
+         '..X..',
+         '.X...',
+         '.X...'),
+        ('QWERT',
+         'ASDFG',
+         'ZXCVB',
+         'YUIOP',
+         'GHJKL')) == "WSCUHCYUOPRFCOKASFGCWSCUH", "R3"

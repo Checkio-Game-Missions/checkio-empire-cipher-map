@@ -1,5 +1,5 @@
 TESTS = {
-    "Level_1": [
+    "Rank_01": [
         {
             "input": [
                 [
@@ -205,8 +205,50 @@ TESTS = {
             ],
             "answer": "zzzzazazaaaaazaz"
         },
-
-
-
+    ],
+    "Rank_02": [
+        {
+            "input": [['...X.', '.X...', '...X.', '.X...', '...X.'],
+                      ['qwert', 'asdfg', 'zxcvb', 'yuiop', 'ghjkl']],
+            "answer": "rsvuksfyipwfxohadguorsvuk",
+        },
+        {
+            "input": [['...X.', '..X.X', '.X.X.', 'X.X..', '.X...'],
+                      ['qwert', 'asdfg', 'zxcvb', 'yuiop', 'ghjkl']],
+            "answer": "rdgxvyihwadxvipkrdgxvyihwadxvipkrdgxvyih",
+        },
+        {
+            "input": [
+                ['.......', '..X....', '....X..', '.X.....', '.....X.', 'X..X...', '.....X.'],
+                ['loremip', 'sumdolo', 'rsitame', 'tconsec', 'teturad', 'ipiscin', 'gelitqu']],
+            "answer": "macaisqodmcriiodosetcooieesqmacaisqodmcriiodosetc",
+        },
+        {
+            "input": [
+                ['.X...X.', 'X.....X', '.......', '...X...', '.......', 'X.....X', '.X...X.'],
+                ['loremip', 'sumdolo', 'rsitame', 'tconsec', 'teturad', 'ipiscin', 'gelitqu']],
+            "answer": "oisonineqoisonineqoisonineqoisonineqoisonineqoisonineqoisonineq",
+        },
+    ],
+    "Rank_03": [
+        {
+            "input": [['...X.', '.X...', '...X.', '.X...', '...X.'],
+                      ['Qwert', 'aSdfg', 'zXSVb', 'yuiop', 'ghjkl']],
+            "answer": "rSVukadguowfXohSfyiprSVuk",
+        },
+        {
+            "input": [['.X...', '.X...', '..X..', '.X...', '.X...'],
+                      ['qWERT', 'ASDFG', 'ZXCVB', 'YUIOP', 'GHJKL']],
+            "answer": "WSCUHASFGCRFCOKCYUOPWSCUH",
+        },
+        {
+            "input": [['.X...', '.X...', '..X..', '.X...', '.X...'],
+                      ['QWERT', 'ASDFG', 'ZXCVB', 'YUIOP', 'GHJKL']],
+            "answer": "WSCUHCYUOPRFCOKASFGCWSCUH",
+        },
+        {
+            "input": [['X...', '..X.', 'X..X', '....'], ['Itdf', 'gdce', 'aton', 'qrdI']],
+            "answer": "IcanddqdgetItfor",
+        },
     ]
 }

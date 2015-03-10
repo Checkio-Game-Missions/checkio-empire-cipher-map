@@ -1,5 +1,4 @@
 from checkio_referee import RefereeBase
-from checkio_referee.covercode import py_unwrap_args
 
 import settings
 import settings_env
