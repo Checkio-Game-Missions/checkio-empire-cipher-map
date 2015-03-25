@@ -1,6 +1,6 @@
 from checkio_referee import RefereeBase, representations
 
-import settings
+
 import settings_env
 from tests import TESTS
 
