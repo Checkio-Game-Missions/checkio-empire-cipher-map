@@ -15,4 +15,4 @@ api.add_listener(
             'python-27': cover,
             'python-3': cover
         },
-        function_name="recall_password").on_ready)
+        DEFAULT_FUNCTION_NAME="recall_password").on_ready)
