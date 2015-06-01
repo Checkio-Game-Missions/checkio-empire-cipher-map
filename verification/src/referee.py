@@ -6,7 +6,7 @@ from tests import TESTS
 
 cover = """
 def cover(f, data):
-    f(*[tuple(str(row) for row in matrix) for matrix in data])
+    return f(*[tuple(str(row) for row in matrix) for matrix in data])
 """
 
 
