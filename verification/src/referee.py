@@ -1,4 +1,4 @@
-from checkio_referee import RefereeBase, representations
+from checkio_referee import RefereeRank, representations
 
 
 import settings_env
@@ -18,7 +18,7 @@ def py_repr(data, f):
     )
 
 
-class Referee(RefereeBase):
+class Referee(RefereeRank):
     TESTS = TESTS
     ENVIRONMENTS = settings_env.ENVIRONMENTS
 
