@@ -210,41 +210,41 @@ TESTS = {
         {
             "input": [['...X.', '.X...', '...X.', '.X...', '...X.'],
                       ['qwert', 'asdfg', 'zxcvb', 'yuiop', 'ghjkl']],
-            "answer": "rsvuksfyipwfxohadguorsvuk",
+            "answer": "rsvuksfyipwfxohadguo",
         },
         {
             "input": [['...X.', '..X.X', '.X.X.', 'X.X..', '.X...'],
                       ['qwert', 'asdfg', 'zxcvb', 'yuiop', 'ghjkl']],
-            "answer": "rdgxvyihwadxvipkrdgxvyihwadxvipkrdgxvyih",
+            "answer": "rdgxvyihwadxvipkrdgxvyihwadxvipk",
         },
         {
             "input": [
                 ['.......', '..X....', '....X..', '.X.....', '.....X.', 'X..X...', '.....X.'],
                 ['loremip', 'sumdolo', 'rsitame', 'tconsec', 'teturad', 'ipiscin', 'gelitqu']],
-            "answer": "macaisqodmcriiodosetcooieesqmacaisqodmcriiodosetc",
+            "answer": "macaisqodmcriiodosetcooieesq",
         },
         {
             "input": [
                 ['.X...X.', 'X.....X', '.......', '...X...', '.......', 'X.....X', '.X...X.'],
                 ['loremip', 'sumdolo', 'rsitame', 'tconsec', 'teturad', 'ipiscin', 'gelitqu']],
-            "answer": "oisonineqoisonineqoisonineqoisonineqoisonineqoisonineqoisonineq",
+            "answer": "oisonineqoisonineqoisonineqoisonineqoisonineq",
         },
     ],
     "Rank_03": [
         {
             "input": [['...X.', '.X...', '...X.', '.X...', '...X.'],
                       ['Qwert', 'aSdfg', 'zXSVb', 'yuiop', 'ghjkl']],
-            "answer": "rSVukadguowfXohSfyiprSVuk",
+            "answer": "rSVukadguowfXohSfyip",
         },
         {
             "input": [['.X...', '.X...', '..X..', '.X...', '.X...'],
                       ['qWERT', 'ASDFG', 'ZXCVB', 'YUIOP', 'GHJKL']],
-            "answer": "WSCUHASFGCRFCOKCYUOPWSCUH",
+            "answer": "WSCUHASFGCRFCOKCYUOP",
         },
         {
             "input": [['.X...', '.X...', '..X..', '.X...', '.X...'],
                       ['QWERT', 'ASDFG', 'ZXCVB', 'YUIOP', 'GHJKL']],
-            "answer": "WSCUHCYUOPRFCOKASFGCWSCUH",
+            "answer": "WSCUHCYUOPRFCOKASFGC",
         },
         {
             "input": [['X...', '..X.', 'X..X', '....'], ['Itdf', 'gdce', 'aton', 'qrdI']],
