@@ -227,7 +227,7 @@ TESTS = {
             "input": [
                 ['.X...X.', 'X.....X', '.......', '...X...', '.......', 'X.....X', '.X...X.'],
                 ['loremip', 'sumdolo', 'rsitame', 'tconsec', 'teturad', 'ipiscin', 'gelitqu']],
-            "answer": "oisonineqoisonineqoisonineqoisonineqoisonineq",
+            "answer": "oisonineqoisonineqoisonineqoisonineq",
         },
     ],
     "Rank_03": [
