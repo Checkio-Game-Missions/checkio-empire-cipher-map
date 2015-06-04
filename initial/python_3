@@ -39,7 +39,7 @@ if __name__ == '__main__':
          'tconsec',
          'teturad',
          'ipiscin',
-         'gelitqu')) == "oisonineqoisonineqoisonineqoisonineqoisonineqoisonineqoisonineq", "R2"
+         'gelitqu')) == "oisonineqoisonineqoisonineqoisonineq", "R2"
 
     # Rank 3
     assert recall_password(
@@ -52,4 +52,4 @@ if __name__ == '__main__':
          'ASDFG',
          'ZXCVB',
          'YUIOP',
-         'GHJKL')) == "WSCUHCYUOPRFCOKASFGCWSCUH", "R3"
+         'GHJKL')) == "WSCUHCYUOPRFCOKASFGC", "R3"
