@@ -10,4 +10,17 @@ Without the cipher grille, it is very difficult to discern the password from the
 
 Write a module that enables the robots to easily recall their passwords using a cipher grille.
 
-![Cipher_map](cipher_map.svg)
+```
+Grille      Password
+
+X . . .     i t d f
+. . X .     g d c e
+X . . X     a t o n
+. . . .     q r d i
+
+i . . .   . t . f   . . . .   . . d .
+. . c .   . . . .   g . . e   . d . .
+a . . n   . . o .   . t . .   . . . .
+. . . .   . r . .   . . . i   q . . i
+ ican   +  tfor   +  geti   +  ddqd
+```
