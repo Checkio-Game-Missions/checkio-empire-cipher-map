@@ -1,4 +1,4 @@
-from checkio_referee import RefereeRank, representations
+from checkio_referee import RefereeRank, representations, covercodes, ENV_NAME
 
 
 import settings_env
@@ -23,13 +23,14 @@ class Referee(RefereeRank):
     ENVIRONMENTS = settings_env.ENVIRONMENTS
 
     DEFAULT_FUNCTION_NAME = "recall_password"
+    FUNCTION_NAMES = {
+        ENV_NAME.JS_NODE: "recallPassword"
+    }
     ENV_COVERCODE = {
-        "python_2": cover,
-        "python_3": cover,
-        "javascript": None
+        ENV_NAME.PYTHON: cover,
+        ENV_NAME.JS_NODE: covercodes.js_unwrap_args
     }
     CALLED_REPRESENTATIONS = {
-        "python_2": py_repr,
-        "python_3": py_repr,
-        "javascript": representations.unwrap_arg_representation
+        ENV_NAME.PYTHON: py_repr,
+        ENV_NAME.JS_NODE: representations.unwrap_arg_representation
     }

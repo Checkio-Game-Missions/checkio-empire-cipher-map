@@ -1,0 +1,60 @@
+"use strict";
+
+function recallPassword(cipherGrille, cipheredPassword) {
+    return "";
+}
+
+var assert = require("assert");
+
+if (!global.is_checking) {
+    // These "asserts" using only for self-checking and not necessary for auto-testing
+    assert.equal(recall_password(
+        ['X...',
+         '..X.',
+         'X..X',
+         '....'],
+        ['itdf',
+         'gdce',
+         'aton',
+         'qrdi']), 'icantforgetiddqd', 'First example');
+
+    assert.equal(recall_password(
+        ['....',
+         'X..X',
+         '.X..',
+         '...X'],
+        ['xhwc',
+         'rsqx',
+         'xqzz',
+         'fyzr']), 'rxqrwsfzxqxzhczy', 'Second example');
+
+    // Rank 2
+    assert.equal(recall_password(
+        ['.X...X.',
+         'X.....X',
+         '.......',
+         '...X...',
+         '.......',
+         'X.....X',
+         '.X...X.'],
+        ['loremip',
+         'sumdolo',
+         'rsitame',
+         'tconsec',
+         'teturad',
+         'ipiscin',
+         'gelitqu']), "oisonineqoisonineqoisonineqoisonineq", "R2");
+
+    // Rank 3
+    assert.equal(recall_password(
+        ['.X...',
+         '.X...',
+         '..X..',
+         '.X...',
+         '.X...'],
+        ['QWERT',
+         'ASDFG',
+         'ZXCVB',
+         'YUIOP',
+         'GHJKL']), "WSCUHCYUOPRFCOKASFGC", "R3");
+}
