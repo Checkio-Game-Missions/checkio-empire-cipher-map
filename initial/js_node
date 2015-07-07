@@ -8,7 +8,7 @@ var assert = require("assert");
 
 if (!global.is_checking) {
     // These "asserts" using only for self-checking and not necessary for auto-testing
-    assert.equal(recall_password(
+    assert.equal(recallPassword(
         ['X...',
          '..X.',
          'X..X',
@@ -18,7 +18,7 @@ if (!global.is_checking) {
          'aton',
          'qrdi']), 'icantforgetiddqd', 'First example');
 
-    assert.equal(recall_password(
+    assert.equal(recallPassword(
         ['....',
          'X..X',
          '.X..',
@@ -29,7 +29,7 @@ if (!global.is_checking) {
          'fyzr']), 'rxqrwsfzxqxzhczy', 'Second example');
 
     // Rank 2
-    assert.equal(recall_password(
+    assert.equal(recallPassword(
         ['.X...X.',
          'X.....X',
          '.......',
@@ -46,7 +46,7 @@ if (!global.is_checking) {
          'gelitqu']), "oisonineqoisonineqoisonineqoisonineq", "R2");
 
     // Rank 3
-    assert.equal(recall_password(
+    assert.equal(recallPassword(
         ['.X...',
          '.X...',
          '..X..',
