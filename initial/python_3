@@ -53,3 +53,5 @@ if __name__ == '__main__':
          'ZXCVB',
          'YUIOP',
          'GHJKL')) == "WSCUHCYUOPRFCOKASFGC", "R3"
+
+    print("Coding complete? Click 'Check' to review your tests and earn cool rewards!")
